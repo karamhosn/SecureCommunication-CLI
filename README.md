@@ -3,13 +3,13 @@
 ## Introduction
 **SecureCommunications** is a lightweight educational project demonstrating how two clients can establish an end-to-end encrypted communication channel using:
 
-- A simple relay server (which cannot read messages)  
+- A relay server that cannot read messages  
 - X25519 (Elliptic-curve Diffie-Hellman) for key exchange  
 - AES-256-GCM for authenticated encryption  
 - HKDF (SHA-256) for key derivation  
 
 The server only forwards encrypted payloads between clients.  
-All cryptographic operations happen on the clients, making this a small-scale simulation of modern secure messaging protocols (e.g., Signal-style ECDH key exchange + AEAD).
+All cryptographic operations happen on the clients, making this a small-scale simulation of modern secure messaging protocols (e.g. Signal-style ECDH key exchange with AEAD).
 
 ## Features
 
