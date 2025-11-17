@@ -29,7 +29,7 @@ All cryptographic operations happen on the clients, making this a small-scale si
 - Graceful shutdown and reconnection handling.
 
 ## Requirements
-- Python 3.x
+- Python 3.8+
 - `cryptography` library (`pip install cryptography`)
 
 ## How to Run
