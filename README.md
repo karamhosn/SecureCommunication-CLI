@@ -1,5 +1,9 @@
 # SecureCommunicationCLI
 
+## Author
+
+- Full Name: Karam Aboul-Hosn
+
 ## Introduction
 **SecureCommunications** is a lightweight educational project demonstrating how two clients can establish an end-to-end encrypted communication channel using:
 
