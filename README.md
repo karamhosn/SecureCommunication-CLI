@@ -5,7 +5,7 @@
 - Full Name: Karam Aboul-Hosn
 
 ## Introduction
-**SecureCommunications** is a lightweight educational project demonstrating how two clients can establish an end-to-end encrypted communication channel using:
+SecureCommunications is a lightweight educational project demonstrating how two clients can establish an end-to-end encrypted communication channel using:
 
 - A relay server that cannot read messages  
 - X25519 (Elliptic-curve Diffie-Hellman) for key exchange  
@@ -18,19 +18,12 @@ All cryptographic operations happen on the clients, making this a small-scale si
 ## Features
 
 ### End-to-End Encryption
-- Clients use **X25519 Diffie-Hellman** to establish a shared secret.
-- A 256-bit symmetric key is derived using **HKDF-SHA256**.
-- All communication is encrypted using **AES-GCM**, providing confidentiality and authentication.
+- Clients use X25519 Diffie-Hellman to establish a shared secret
+- A 256-bit symmetric key is derived using HKDF-SHA256
+- All communication is encrypted using AES-GCM, providing confidentiality and authentication
 
 ### Relay
-- The relay server never decrypts or inspects messages.
-- It matches clients into pairs and relays encrypted frames.
-
-### User-Friendly Interface
-- Clean startup messages.
-- Easy exit
-- Clear fingerprint comparison instructions.
-- Graceful shutdown and reconnection handling.
+The relay server never decrypts or inspects messages, it only matches clients into pairs and relays encrypted frames.
 
 ## Requirements
 - Python 3.8+
