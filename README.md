@@ -46,7 +46,7 @@ All cryptographic operations happen on the clients, making this a small-scale si
 Here’s a snapshot of the one-way communication in action between the two clients after running server.py:
 
 ![Client1 Communication Screenshot]
-![image](Photos/githubphoto1.png)
+![image](Photos/client1.png)
 
 ![Client2 Communication Screenshot]
-![image](Photos/githubphoto2.png)
+![image](Photos/client2.png)
